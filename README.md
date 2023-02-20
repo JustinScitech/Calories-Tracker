@@ -17,7 +17,7 @@ The Calories Tracking App is a React.js application that helps fitness enthusias
 
 ## Demo
 
-https://gyazo.com/7598e4dca24a272977818620606b4af7
+![image](https://user-images.githubusercontent.com/56651128/220100676-1db5ca5d-8cf5-4059-85f1-c80809d4358d.png)
 
 ## Usage
 1. To add an intake item, enter the food name and the number of calories and click the "Add meal" button.
