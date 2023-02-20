@@ -2,10 +2,15 @@ import React, {createContext, useReducer} from 'react';
 import AppReducer from './AppReducer';
 
 const initialState = {
-    intake: []
+    intakes: []
 }
 
+
+//Creates context
 export const GlobalContext = createContext(initialState);
+
+
+//Provider
 
 export const GlobalProvider = ({ children }) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
@@ -13,20 +18,20 @@ export const GlobalProvider = ({ children }) => {
   // Actions
   function deleteIntake(id) {
     dispatch({
-      type: 'DELETE_TRANSACTION',
+      type: 'DELETE_INTAKE',
       payload: id
     });
   }
 
   function addIntake(intake) {
     dispatch({
-      type: 'ADD_TRANSACTION',
+      type: 'ADD_INTAKE',
       payload: intake
     });
   }
 
   return (<GlobalContext.Provider value={{
-    intake: state.intake,
+    intakes: state.intakes,
     deleteIntake,
     addIntake
   }}>

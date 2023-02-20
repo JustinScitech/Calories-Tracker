@@ -1,6 +1,5 @@
 import React from 'react';
 import { Header } from './components/Header';
-import { Intake } from './components/Intake';
 import { CaloricIntake } from './components/CaloricIntake';
 import { IntakeList } from './components/IntakeList';
 import { AddCalories } from './components/AddCalories';
@@ -10,14 +9,14 @@ import './App.css';
 function App() {
   return (
     <GlobalProvider>
-    <div>
-     <Header />
-     <Intake />
+    <Header />
+    <div className = "container">
      <CaloricIntake />
      <IntakeList />
      <AddCalories />
     </div>
   </GlobalProvider>
+  
   );
 }
 

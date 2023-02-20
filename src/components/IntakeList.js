@@ -4,13 +4,12 @@ import { GlobalContext } from '../context/GlobalState';
 
 
 export const IntakeList = () => {
+  const {intakes} = useContext(GlobalContext);
   return (
     <>
-      <h3>Caloric History</h3>
+      <h3>Past Foods</h3>
       <ul className="list">
-        <li className="minus">
-          Calories <span>4000</span><button className="delete-btn">x</button>
-        </li>
+        {intakes.map(intake => (<Intake key={intake.id} intake = {intake}/>))}
       </ul>
     </>
   )
