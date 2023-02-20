@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Calories Tracking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+The Calories Tracking App is a React.js application that helps fitness enthusiasts track their calories. The app makes it easier for users to cut and bulk by providing a platform for tracking their daily caloric intake.
 
-## Available Scripts
+## Technologies Used
+- React.js
+- Tailwind CSS
+- Context API
+- CI/CD Pipeline
 
-In the project directory, you can run:
+## Features
+- Users can add and remove caloric intake items
+- Total caloric intake is calculated and displayed in real-time
+- The color of the total caloric intake text changes gradually from green to red as the total calories reach 4000
+- The text starts from red if the calories are 0 and gradually turns to green as the total calories reach 3000
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://gyazo.com/7598e4dca24a272977818620606b4af7
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+1. To add an intake item, enter the food name and the number of calories and click the "Add meal" button.
+2. To remove an intake item, click the "X" button next to the item in the list.
+3. The total caloric intake is displayed at the top of the page and changes color gradually as described in the Features section.
 
-### `npm test`
+## Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/username/repo-name.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### `npm run build`
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
